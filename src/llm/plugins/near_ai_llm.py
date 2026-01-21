@@ -16,7 +16,7 @@ R = T.TypeVar("R", bound=BaseModel)
 
 class NearAILLM(LLM[R]):
     """
-    An NearAI-based Language Learning Model implementation.
+    A NearAI-based Language Learning Model implementation.
 
     This class implements the LLM interface for Near AI's open-source models, handling
     configuration, authentication, and async API communication.
